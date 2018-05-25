@@ -34,7 +34,7 @@ Configure {swagger-express} as express middleware.
 
 `middleware`      -> Function before response.
 
-```
+```js
 var swagger = require('swagger-express');
 
 app.configure(function(){
